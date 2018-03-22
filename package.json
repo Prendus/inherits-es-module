@@ -1,0 +1,19 @@
+{
+  "name": "inherits-es-module",
+  "version": "0.0.0",
+  "description": "",
+  "main": "inherits.js",
+  "scripts": {
+    "bundle": "rollup -c"
+  },
+  "author": "Jordan Last <jordan.michael.last@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "inherits": "^2.0.3",
+    "rollup": "^0.57.1",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.2.0",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
+}
